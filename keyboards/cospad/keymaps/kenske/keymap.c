@@ -72,7 +72,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return true;
       case EMAIL2:
         if (record->event.pressed) {
-          SEND_STRING("kenneth.skertchly@silvercar.com");
+          SEND_STRING("kenneth@grazzy.com");
         }
         return true;
       case MACRO1:

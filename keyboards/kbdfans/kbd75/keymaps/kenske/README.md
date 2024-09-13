@@ -3,11 +3,11 @@
 ## Compile layout:
 
 ```bash
-make kbd75:kenske
+make kbdfans/kbd75/rev2:kenske
 ```
 
 ## Compile and flash:
 
 ```bash
-make kbd75:kenske:dfu
+qmk flash -kb kbdfans/kbd75/rev2 -km kenske
 ```
